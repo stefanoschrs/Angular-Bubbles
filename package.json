@@ -1,0 +1,44 @@
+{
+	"name": "angular-bubbles",
+	"description": "Bouncy Bubbles",
+	"version": "1.0.0",
+	"main": "webpack.config.js",
+	"repository": {
+		"type": "git",
+		"url": "git@github:stefanoschrs/Angular-Bubbles.git"
+	},
+	"scripts": {
+		"build": "NODE_ENV=production webpack --config webpack.prod.config.js -p",
+		"start": "webpack-dev-server --inline"
+	},
+	"devDependencies": {
+		"babel-core": "^6.21.0",
+		"babel-loader": "^6.2.10",
+		"babel-plugin-transform-decorators-legacy": "^1.3.4",
+		"babel-preset-es2015": "^6.18.0",
+		"babel-preset-stage-0": "^6.16.0",
+		"css-loader": "^0.26.1",
+		"eslint": "^3.12.2",
+		"eslint-config-angular": "^0.5.0",
+		"eslint-plugin-angular": "^1.5.0",
+		"style-loader": "0.13.0",
+		"webpack": "^1.14.0",
+		"webpack-dev-server": "^1.16.2"
+	},
+	"dependencies": {
+		"angular2": "^2.0.0-beta.21",
+		"es6-promise": "^4.0.5",
+		"es6-shim": "^0.35.2",
+		"reflect-metadata": "^0.1.8",
+		"rxjs": "^5.0.1",
+		"zone.js": "^0.7.2"
+	},
+	"keywords": [
+		"angular 2",
+		"babel",
+		"webpack",
+		"canvas"
+	],
+	"author": "Stefanos Chrs <stefanoschrs@hotmail.com>",
+	"license": "MIT"
+}
